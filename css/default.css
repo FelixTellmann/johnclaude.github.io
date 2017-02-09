@@ -645,7 +645,7 @@ input[type="checkbox"] { display: inline; }
 .row .nine        { width: 75%; }
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
-.row .twelve      { width: 100%; }
+.row .twelve      { width: 100%; clear: both;}
 
 /* Offsets */
 .row .offset-1    { margin-left: 8.33333%; }
@@ -730,7 +730,8 @@ properly.
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
-      padding: 0 30px;
+       padding: 0 30px;
+       clear: both;
    }
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
@@ -801,7 +802,3 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
-
-
-
-
