@@ -13,6 +13,7 @@
   	width: 44%;
   	margin-right: 50px;
   	letter-spacing: 5px;
+  	height: 60px;
   }
 }
 
@@ -33,6 +34,17 @@
 	.speech-bubble{
   		display: none;
   	}
+
+  	 .social_link{
+	    border-radius: 50%;
+    	color: #f4f4f4 !important;
+    	background: none !important;
+    	display: inline !important;
+	}
+
+	.social_link i{
+		font-size: 35px;
+	}
 }
 
 @media screen and (max-width: 480px){
