@@ -213,7 +213,6 @@ img { max-width: 100%; }
 .social{
     font-size: 1.1em !important;
     letter-spacing: 2px;
-    padding-left: 20px;
     font-family: inherit;
     font-weight: 300;
 }
@@ -249,6 +248,32 @@ img { max-width: 100%; }
 
 .speech-bubbles.fit{
   max-width: 30%;
+}
+
+.center{
+  text-align: center;
+}
+
+.green a{
+  background: #52e461;
+  color: #f4f4f4;
+}
+
+
+.copyright{
+  margin-top: 30px;
+  color: #5a5a5a;
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+.logo-main__img{
+  visibility: visible;
+  animation-delay: 10s;
+  animation-name: slideInRight;
 }
 /*----------------------------------------- 8) Preloader --------------------------------------------------*/
 #preloader {

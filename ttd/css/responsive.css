@@ -45,6 +45,11 @@
 	.social_link i{
 		font-size: 35px;
 	}
+
+	.green a{
+  		color: #52e461 !important;
+  		background: none;
+	}
 }
 
 @media screen and (max-width: 480px){
