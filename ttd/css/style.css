@@ -651,11 +651,11 @@ h5 {
 }
 p {
     letter-spacing: 0.5px;
-    font-size: 15px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 40px;
     font-weight: 300;
     color: #5a5a5a;
-    font-family: 'LatoLight';
+    font-family: 'Lato';
 }
 html {
   font-size: 16px;
