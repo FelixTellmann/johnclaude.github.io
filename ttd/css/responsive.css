@@ -37,8 +37,6 @@
 
   	 .social_link{
 	    border-radius: 50%;
-    	color: #f4f4f4 !important;
-    	background: none !important;
     	display: inline !important;
 	}
 
@@ -47,8 +45,52 @@
 	}
 
 	.green a{
-  		color: #52e461 !important;
-  		background: none;
+  		background: #52e461;
+    	color: #f4f4f4;
+    	text-align: center;
+		padding: 30px 17px 20px 17px;
+    	border-radius: 100%;
+	}
+
+	.wrap-hero-content{
+		margin-top: 20px;
+	}
+
+	.home-logo{
+		width: 65%;
+		height: auto;
+	}
+
+	.btn-talent{
+		font-size: 1.2em;
+		height: 52px;
+	}
+
+	.fm{
+	    width: 12%;
+    	padding-bottom: 13px;
+	}
+
+	.inverse{
+		color: white;
+		background: #52e461;
+		padding: 30px 17px 20px 17px;
+	}
+	.inverse:hover{
+		background: #5a5a5a;
+	}
+
+	.fb{
+	   	padding: 30px 24px 22px 24px;
+	}
+
+	.s-mobile{
+		background: none !important;
+		color: white !important;
+	}
+
+	#sendMessage{
+		font-size: 1.2em !important;
 	}
 }
 
